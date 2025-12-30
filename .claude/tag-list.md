@@ -31,6 +31,10 @@
 - git
 - github
 - icloud
+- terraform
+- iac
+- cicd
+- database
 
 ## ビジネス
 - startup

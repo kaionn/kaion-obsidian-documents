@@ -37,8 +37,31 @@ tags:
 - [ ] Go の競プロ 1 問解く
 
 ---
+## Job Memo
 
-## Memo
+- 
+---
+## Private Memo
+
+- 
+---
+
+## Activity Log
+
+### 🌅 午前 (9:00-12:00)
+-
+
+### 🌞 午後 (13:00-18:00)
+-
+
+### 🌙 夜 (19:00-)
+-
+
+---
+
+## Session Talk
+
+- 
 
 ---
 
@@ -47,8 +70,10 @@ tags:
 ### 今日の記録
 
 ```dataviewjs
-const today = dv.date("today").toFormat("yyyy-MM-dd");
-const dailyPath = `00_inbox/thino/${today}.md`;
+const today = dv.date("today").toFormat("yyyyMMdd");
+const year = dv.date("today").toFormat("yyyy");
+const month = dv.date("today").toFormat("MM");
+const dailyPath = `00_inbox/thino/${year}/${month}/${today}.md`;
 const file = dv.page(dailyPath);
 
 if (file) {

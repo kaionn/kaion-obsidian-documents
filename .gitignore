@@ -1,4 +1,19 @@
-.obsidian/*
+# Obsidian
+.obsidian/
+.trash/
+
+# macOS
 .DS_Store
+**/.DS_Store
+
+# iCloud sync placeholders
+*.icloud
+
+# Personal inbox (unorganized notes)
 00_inbox/
+
+# Claude Code local state (tag-list.md is tracked)
+.claude/memory/
+.claude/state/
+.claude/settings.local.json
 
